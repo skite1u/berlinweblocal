@@ -1,0 +1,617 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Local Web Berlin erstellt moderne Websites für lokale Berliner Betriebe: mobil optimiert, schnell, mit Kontaktformular, Online-Buchung, SEO-Grundlagen und Google Business Optimierung.">
+  <title>Local Web Berlin | Moderne Websites für lokale Betriebe</title>
+  <link rel="canonical" href="https://berlinweblocal.de/">
+  <link rel="stylesheet" href="style.css?v=mobile-overflow-fix-1">
+  <meta name="privacy-analytics" content="cookieless-placeholder">
+  <!--
+    Cookielose Privacy-Analytics vorbereiten:
+    Plausible/Pirsch wird erst nach Klick auf "Alle akzeptieren" geladen.
+    Dazu in public/script.js die Platzhalter-Domain bzw. den Pirsch-Code ersetzen.
+    Event-Tracking nutzt window.plausible(...) oder window.pirsch(...), falls später eingebunden.
+  -->
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Local Web Berlin Startseite">
+      <img src="assets/lwb-logo.png" alt="Local Web Berlin Logo">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#referenzen">Referenzen</a>
+      <a href="#pakete">Pakete</a>
+      <a href="/blog/">Blog</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <a class="header-cta" href="https://wa.me/4917662581511?text=Hallo%20Berlin%20Web%20Local%2C%20ich%20m%C3%B6chte%20eine%20Website%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-gradient">
+      <div class="hero-content">
+        <p class="eyebrow">Websites für Berliner Betriebe</p>
+        <h1>Lokale Stärke.<br><span>Digitale Präsenz.</span></h1>
+        <p class="hero-copy">Moderne Websites für Friseure, Restaurants, Kosmetikstudios und lokale Dienstleister, die mehr Anfragen, Vertrauen und Kunden bringen.</p>
+        <div class="hero-actions">
+          <a class="btn btn-whatsapp pulse-cta" href="https://wa.me/4917662581511?text=Hallo%20Berlin%20Web%20Local%2C%20ich%20m%C3%B6chte%20ein%20kostenloses%20Erstgespr%C3%A4ch." target="_blank" rel="noopener" data-track-event="Hero WhatsApp Erstgespräch">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 4C9.42 4 4.04 9.38 4.04 16c0 2.12.56 4.12 1.54 5.85L4 28l6.32-1.5A11.9 11.9 0 0 0 16.04 28c6.62 0 12-5.38 12-12s-5.38-12-12-12Zm0 21.8c-1.85 0-3.58-.51-5.06-1.4l-.36-.21-3.75.89 1-3.65-.24-.38A9.72 9.72 0 0 1 6.24 16c0-5.4 4.4-9.8 9.8-9.8s9.8 4.4 9.8 9.8-4.4 9.8-9.8 9.8Zm5.37-7.34c-.29-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.67.15-.2.29-.77.96-.95 1.16-.17.2-.35.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.45.13-.6.13-.13.29-.35.44-.52.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.91-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.29-1.04 1.02-1.04 2.48 0 1.46 1.06 2.88 1.21 3.08.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.74-.71 1.99-1.39.25-.68.25-1.27.17-1.39-.07-.13-.27-.2-.56-.35Z"/></svg>
+            Per WhatsApp anschreiben
+          </a>
+          <button class="btn btn-secondary" type="button" data-open-modal>Angebot anfragen</button>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Website Mockup von Local Web Berlin">
+        <img class="hero-mockup-image" src="assets/hero-mockup-berlin.png" alt="Laptop und Smartphone mit berlinweblocal.de Website vor Berliner Skyline">
+        <div class="hero-rating" aria-label="Google Rating 5.0 mit 5 Sternen">
+          <div class="hero-rating-main">
+            <span class="google-word">
+              <svg class="google-logo" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.1c-.22-.66-.35-1.36-.35-2.1s.13-1.44.35-2.1V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l3.66-2.84z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06L5.84 9.9C6.71 7.3 9.14 5.38 12 5.38z"/>
+              </svg>
+              <span>Google Bewertung</span>
+            </span>
+            <strong>5.0</strong>
+          </div>
+          <div class="hero-rating-bottom">
+            <span class="google-stars">★★★★★</span>
+            <span>Vertrauen lokaler Berliner Betriebe</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-bar" aria-label="Vorteile">
+      <article>
+        <span class="feature-icon">◎</span>
+        <div>
+          <h2>Modernes Design</h2>
+          <p>Professioneller Auftritt für lokale Betriebe.</p>
+        </div>
+      </article>
+      <article>
+        <span class="feature-icon">↗</span>
+        <div>
+          <h2>Mehr Sichtbarkeit</h2>
+          <p>Besser gefunden. Mehr Kundenanfragen.</p>
+        </div>
+      </article>
+      <article>
+        <span class="feature-icon">◇</span>
+        <div>
+          <h2>Zuverlässig & persönlich</h2>
+          <p>Direkt aus Berlin. Klar, schnell, nahbar.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section services-section reveal-section" id="leistungen">
+      <div class="section-heading">
+        <p class="eyebrow">Leistungen</p>
+        <h2>Alles, was deine Website lokal stark macht.</h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card service-card-large service-card-media">
+          <div class="service-map-visual" role="img" aria-label="Custom Webdesign Visual mit Laptop und Smartphone">
+            <img src="assets/custom-webdesign-berlin-2026.png" alt="Modernes Custom Webdesign Visual mit Laptop, Smartphone und Berliner Skyline">
+          </div>
+          <div class="service-icon">01</div>
+          <h3>Moderne Website & Mobile Optimierung</h3>
+          <p>Wir bauen deine Website schlank, modern und klar verständlich. Sie lädt schnell, sieht auf Smartphones stark aus und führt Besucher ohne Umwege zu Kontakt, Anfrage oder Buchung.</p>
+          <button class="text-link-btn" type="button" data-open-modal data-package="Business">Website anfragen</button>
+        </article>
+
+        <article class="service-card service-card-large service-card-media">
+          <div class="service-map-visual" role="img" aria-label="Berlin-Karte mit Smartphone für lokale Sichtbarkeit">
+            <img src="assets/local-seo-berlin-2026.png" alt="Modernes Local SEO Visual mit Berlin-Karte, Smartphone und Top-3-Ranking">
+          </div>
+          <div class="service-icon">02</div>
+          <h3>Google Business & SEO-Grundlagen</h3>
+          <p>Wir optimieren deine Website technisch sauber und stärken dein Google Business Profil. So wird dein Betrieb besser gefunden, wirkt seriöser und bekommt mehr lokale Anfragen.</p>
+          <button class="text-link-btn" type="button" data-open-modal data-package="Business">Sichtbarkeit anfragen</button>
+        </article>
+
+        <article class="service-card service-card-large service-card-media">
+          <div class="service-map-visual" role="img" aria-label="Kontaktformular, Online-Buchung und monatliche Pflege Visual">
+            <img src="assets/google-ads-berlin-2026.png" alt="Modernes Visual für Kontaktformular, Online-Buchung und monatliche Website-Pflege">
+          </div>
+          <div class="service-icon">03</div>
+          <h3>Kontaktformular, Online-Buchung & Pflege</h3>
+          <p>Deine Seite bekommt ein funktionierendes Kontaktformular, auf Wunsch Online-Buchung und monatliche Pflege. Änderungen, Sicherheit und schnelle Ladezeiten bleiben dauerhaft im Blick.</p>
+          <button class="text-link-btn" type="button" data-open-modal data-package="Premium">Betreuung anfragen</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section portfolio-section reveal-section" id="portfolio">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Echte Webdesign-Unikate aus Berlin.</h2>
+      </div>
+      <div class="portfolio-showcase">
+        <div class="portfolio-device" aria-label="Animierte Website-Beispiele für lokale Berliner Betriebe">
+          <div class="portfolio-browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="portfolio-screen">
+            <div class="portfolio-slide slide-salon">
+              <small>Friseursalon</small>
+              <strong>Salon Haar & Stil</strong>
+              <p>Online buchen. Sofort Vertrauen aufbauen.</p>
+              <div class="slide-grid"><i></i><i></i><i></i></div>
+            </div>
+            <div class="portfolio-slide slide-electric">
+              <small>Handwerk</small>
+              <strong>Elektro Schulz</strong>
+              <p>Mehr Anfragen und Bewerbungen aus Spandau.</p>
+              <div class="slide-chart"><i></i><i></i><i></i></div>
+            </div>
+            <div class="portfolio-slide slide-food">
+              <small>Restaurant</small>
+              <strong>Pizzeria Da Luca</strong>
+              <p>Speisekarte, WhatsApp und mobile Gästeanfragen.</p>
+              <div class="slide-menu"><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-copy">
+          <p class="eyebrow">Custom Code aus Berlin</p>
+          <h3>Mehr Wirkung im Web. Weniger Standard. Echt Berliner Webdesign.</h3>
+          <p>LWB realisiert digitale Auftritte, die Berliner Unternehmen wirklich weiterbringen. Wir verbinden strategisches Denken mit modernem, pfeilschnellem Custom Code — für Webseiten, die deine Marke stärken und Kunden überzeugen.</p>
+          <button class="btn btn-primary" type="button" data-open-modal data-package="Business">Projekt anfragen</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section reveal-section" id="referenzen">
+      <div class="section-heading">
+        <p class="eyebrow">Vertrauen</p>
+        <h2>Gebaut für echte lokale Ergebnisse.</h2>
+      </div>
+
+      <div class="reviews">
+        <article class="review-card">
+          <div class="review-top">
+            <div class="avatar">HS</div>
+            <div class="stars" aria-label="5 von 5 Sternen">★★★★★</div>
+          </div>
+          <p>"Seit wir die neue Website mit Online-Buchung haben, klingelt das Telefon deutlich seltener, während wir am Kunden arbeiten. Die Kunden buchen einfach abends von der Couch aus. Die 79€ im Monat haben sich schon in der ersten Woche amortisiert!"</p>
+          <div class="review-meta">
+            <strong>Salon Haar & Stil, Berlin-Mitte</strong>
+            <a href="https://www.haar-und-stil-berlin.de" target="_blank" rel="noopener">www.haar-und-stil-berlin.de</a>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <div class="avatar">ES</div>
+            <div class="stars" aria-label="5 von 5 Sternen">★★★★★</div>
+          </div>
+          <p>"Wir waren skeptisch, ob eine One-Page-Website reicht. Aber dank der integrierten '60-Sekunden-Bewerbung' haben wir innerhalb von drei Wochen zwei neue Gesellen gefunden. Absolut genialer Service für kleine Betriebe."</p>
+          <div class="review-meta">
+            <strong>Elektro Meisterbetrieb Schulz, Spandau</strong>
+            <a href="https://www.elektro-schulz-spandau.de" target="_blank" rel="noopener">www.elektro-schulz-spandau.de</a>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <div class="avatar">DL</div>
+            <div class="stars" aria-label="5 von 5 Sternen">★★★★★</div>
+          </div>
+          <p>"Unsere alte Website war auf dem Handy kaum lesbar. Jetzt finden unsere Gäste die Speisekarte sofort und können uns direkt per WhatsApp schreiben. Wenn sich Preise ändern, reicht eine kurze Nachricht an LWB und es ist erledigt."</p>
+          <div class="review-meta">
+            <strong>Pizzeria Da Luca, Kreuzberg</strong>
+            <a href="https://www.pizzeria-da-luca-kreuzberg.de" target="_blank" rel="noopener">www.pizzeria-da-luca-kreuzberg.de</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="before-after">
+        <div class="mockup-card before">
+          <div class="mockup-browser">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mockup-screen old-site">
+            <div class="old-nav-chaos">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="old-hero-chaos">
+              <div class="mockup-line short"></div>
+              <div class="mockup-line"></div>
+              <div class="mockup-line tiny"></div>
+            </div>
+            <div class="old-text-jungle">
+              <i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="old-dead-button"></div>
+          </div>
+          <span>Vorher</span>
+          <p>Unklare Seite, keine mobilen CTAs, wenig Vertrauen. Hier kann später ein Screenshot der alten Website platziert werden.</p>
+        </div>
+        <div class="mockup-card after">
+          <div class="mockup-browser">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mockup-screen new-site">
+            <div class="new-hero-bar">
+              <strong>LWB</strong>
+              <span>Jetzt anfragen</span>
+            </div>
+            <div class="new-content-row">
+              <div class="mockup-hero-line"></div>
+              <div class="new-cta-pill"></div>
+            </div>
+            <div class="mockup-grid">
+              <i></i><i></i><i></i>
+            </div>
+          </div>
+          <span>Nachher</span>
+          <p>Moderner Auftritt, klare Pakete, direkte Kontaktwege. Hier kann später der neue Website-Screenshot hinein.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing-section reveal-section" id="pakete">
+      <div class="section-heading">
+        <p class="eyebrow">Pakete</p>
+        <h2>Klare Preise für klare Entscheidungen.</h2>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Starter</h3>
+          <p class="setup-price">99 € Einrichtung</p>
+          <p class="price">49 € <span>/ Monat</span></p>
+          <ul class="feature-list">
+            <li class="is-included">One-Page Website</li>
+            <li class="is-included">Hosting & SSL</li>
+            <li class="is-included">Tech-Updates</li>
+            <li class="is-included">Monatliche Sicherheitschecks</li>
+            <li class="is-included">24/7 Support</li>
+          </ul>
+          <p class="ideal-for"><strong>Ideal für:</strong> Kleine Betriebe, Gastronomen und Gründer.</p>
+          <button class="btn btn-outline" type="button" data-open-modal data-package="Starter" data-track-event="Paket anfragen Starter">Anfragen</button>
+        </article>
+        <article class="price-card featured">
+          <span class="badge">Bestseller</span>
+          <h3>Business</h3>
+          <p class="setup-price">249 € Einrichtung</p>
+          <p class="price">79 € <span>/ Monat</span></p>
+          <ul class="feature-list">
+            <li class="is-included">Alles aus Starter</li>
+            <li class="is-included">Mehrseiten-Website bis 5 Seiten</li>
+            <li class="is-included">Online-Terminbuchung</li>
+            <li class="is-included">Karriere-Unterseite</li>
+            <li class="is-included">Basis-SEO für Google</li>
+            <li class="is-included">Google Business Profil Optimierung</li>
+            <li class="is-included">Monatliche Backups</li>
+            <li class="is-included">Fester persönlicher Ansprechpartner in Berlin</li>
+            <li class="is-included">Inhalts-Updates für Texte & Öffnungszeiten</li>
+            <li class="is-included">24/7 Support</li>
+          </ul>
+          <p class="ideal-for"><strong>Ideal für:</strong> Friseure, Handwerker und Dienstleister.</p>
+          <button class="btn btn-primary" type="button" data-open-modal data-package="Business" data-track-event="Paket anfragen Business">Anfragen</button>
+        </article>
+        <article class="price-card">
+          <h3>Premium</h3>
+          <p class="setup-price">499 € Einrichtung</p>
+          <p class="price">149 € <span>/ Monat</span></p>
+          <ul class="feature-list">
+            <li class="is-included">Alles aus Business</li>
+            <li class="is-included">Erweiterte lokale SEO</li>
+            <li class="is-included">Google Maps Optimierung</li>
+            <li class="is-included">ChatGPT/KI-Optimierung (GEO)</li>
+            <li class="is-included">Google Business Profil Pflege</li>
+            <li class="is-included">Wöchentliche Sicherheitschecks</li>
+            <li class="is-included">Monatliche Backups</li>
+            <li class="is-included">Laufende Verbesserungsvorschläge</li>
+            <li class="is-included">Social-Media-Betreuung</li>
+            <li class="is-included">Bis zu 5 Social-Media-Beiträge pro Woche</li>
+            <li class="is-included">DSGVO-, Code- und Inhalts-Updates</li>
+            <li class="is-included">Priorisierter 24/7 Support</li>
+          </ul>
+          <p class="ideal-for"><strong>Ideal für:</strong> Unternehmen, die aktiv wachsen möchten.</p>
+          <button class="btn btn-outline" type="button" data-open-modal data-package="Premium" data-track-event="Paket anfragen Premium">Anfragen</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section process-section reveal-section" id="ablauf">
+      <div class="section-heading">
+        <p class="eyebrow">Ablauf</p>
+        <h2>Der einfache Weg zu deiner Website.</h2>
+      </div>
+      <div class="process-grid">
+        <article class="process-card">
+          <span class="process-number">1</span>
+          <div class="process-icon" aria-hidden="true">☕</div>
+          <h3>15-Minuten-Erstgespräch</h3>
+          <p>Wir besprechen deine Wünsche ganz unkompliziert per Telefon oder WhatsApp. Kein Fachchinesisch, sondern glasklare Ziele.</p>
+        </article>
+        <article class="process-card">
+          <span class="process-number">2</span>
+          <div class="process-icon" aria-hidden="true">🚀</div>
+          <h3>Express-Entwicklung</h3>
+          <p>Wir erstellen dein maßgeschneidertes Design. Da wir mit modernem Custom Code arbeiten, ist deine Seite in Rekordzeit startklar.</p>
+        </article>
+        <article class="process-card">
+          <span class="process-number">3</span>
+          <div class="process-icon" aria-hidden="true">🔒</div>
+          <h3>Rundum-Sorglos-Launch</h3>
+          <p>Deine Website geht live. Ab jetzt übernehmen wir das Hosting, die Sicherheit und alle zukünftigen Textänderungen für dich. Du lehnst dich zurück.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq-section reveal-section" id="faq">
+      <div class="section-heading">
+        <p class="eyebrow">FAQ</p>
+        <h2>Häufig gestellte Fragen.</h2>
+      </div>
+      <div class="faq-list">
+        <article class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Was ist in der monatlichen Gebühr alles enthalten?</span>
+            <i aria-hidden="true">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolut alles, was du für einen sorgenfreien Betrieb brauchst: Sicheres EU-Hosting, ein SSL-Zertifikat, fortlaufende Sicherheitsupdates und unser Änderungsservice für Texte und Bilder via WhatsApp.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Wie funktionieren Änderungen an der Website?</span>
+            <i aria-hidden="true">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Ganz einfach: Schicke uns eine kurze Nachricht mit dem neuen Text oder Bild per WhatsApp. Wir setzen die Änderung zeitnah für dich um – ohne Extrakosten.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Brauche ich ein nerviges Cookie-Banner?</span>
+            <i aria-hidden="true">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Nein! Wir programmieren deine Website so schlank und datenschutzfreundlich, dass sie komplett ohne einwilligungspflichtige Cookies auskommt. Das ist zu 100 % DSGVO-konform und sorgt für maximale Ladegeschwindigkeit.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Wie schnell kann meine neue Website online sein?</span>
+            <i aria-hidden="true">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Das hängt vom Umfang ab. Eine klare One-Page-Website kann oft sehr schnell umgesetzt werden, während Mehrseiten-Websites, Buchungssysteme und SEO-Struktur etwas mehr Vorbereitung brauchen.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Ist Hosting und SSL schon enthalten?</span>
+            <i aria-hidden="true">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Ja. Hosting und SSL sind in allen Paketen enthalten. Deine Website läuft sicher, professionell und ohne komplizierte Technikaufgaben für dich.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Kann ich später auf ein größeres Paket wechseln?</span>
+            <i aria-hidden="true">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Ja. Du kannst mit Starter beginnen und später auf Business oder Premium wechseln, wenn du mehr Seiten, SEO, Google Business Pflege oder Social-Media-Betreuung brauchst.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Kann eine Online-Buchung eingebaut werden?</span>
+            <i aria-hidden="true">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Ja. Im Business-Paket ist Online-Terminbuchung vorgesehen. Das passt besonders gut für Friseure, Kosmetik, Wellness, Beratung und lokale Dienstleister.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Optimiert ihr auch mein Google Business Profil?</span>
+            <i aria-hidden="true">+</i>
+          </button>
+          <div class="faq-answer">
+            <p>Ja. Ab Business optimieren wir dein Google Business Profil. Im Premium-Paket übernehmen wir zusätzlich laufende Pflege und lokale Sichtbarkeitsverbesserung.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-section" id="kontakt">
+      <div>
+        <p class="eyebrow">Kontakt</p>
+        <h2>Bereit für mehr Kundenanfragen?</h2>
+        <p>Schreib uns kurz, was du brauchst. Wir melden uns mit einem klaren Vorschlag für deinen Betrieb.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary whatsapp-btn" href="https://wa.me/4917662581511?text=Hallo%20Berlin%20Web%20Local%2C%20ich%20m%C3%B6chte%20mehr%20Kunden%20%C3%BCber%20meine%20Website." target="_blank" rel="noopener">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 4C9.42 4 4.04 9.38 4.04 16c0 2.12.56 4.12 1.54 5.85L4 28l6.32-1.5A11.9 11.9 0 0 0 16.04 28c6.62 0 12-5.38 12-12s-5.38-12-12-12Zm0 21.8c-1.85 0-3.58-.51-5.06-1.4l-.36-.21-3.75.89 1-3.65-.24-.38A9.72 9.72 0 0 1 6.24 16c0-5.4 4.4-9.8 9.8-9.8s9.8 4.4 9.8 9.8-4.4 9.8-9.8 9.8Zm5.37-7.34c-.29-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.67.15-.2.29-.77.96-.95 1.16-.17.2-.35.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.45.13-.6.13-.13.29-.35.44-.52.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.91-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.29-1.04 1.02-1.04 2.48 0 1.46 1.06 2.88 1.21 3.08.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.74-.71 1.99-1.39.25-.68.25-1.27.17-1.39-.07-.13-.27-.2-.56-.35Z"/></svg>
+          Per WhatsApp schreiben
+        </a>
+        <button class="btn btn-secondary" type="button" data-open-modal>Formular öffnen</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-topbar">
+      <a class="footer-logo" href="#top" aria-label="Local Web Berlin Startseite">
+        <img src="assets/lwb-logo-footer-transparent.png" alt="Local Web Berlin Logo">
+      </a>
+      <span class="footer-separator">//</span>
+      <a class="footer-contact-link" href="tel:+4917662581511">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.3-.3.73-.4 1.12-.27 1.24.41 2.57.63 3.95.63.62 0 1.12.5 1.12 1.12v3.49c0 .62-.5 1.12-1.12 1.12C10.55 21.77 2.5 13.72 2.5 3.79c0-.62.5-1.12 1.12-1.12h3.5c.62 0 1.12.5 1.12 1.12 0 1.38.22 2.71.63 3.95.12.39.03.82-.28 1.12l-1.97 1.93Z"/></svg>
+        <span>Tel.: +49 176 62581511</span>
+      </a>
+      <span class="footer-separator">//</span>
+      <a class="footer-contact-link" href="mailto:anfragen@berlinweblocal.de">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.75 5.25h16.5c.83 0 1.5.67 1.5 1.5v10.5c0 .83-.67 1.5-1.5 1.5H3.75c-.83 0-1.5-.67-1.5-1.5V6.75c0-.83.67-1.5 1.5-1.5Zm.92 2.5 7.33 5.07 7.33-5.07H4.67Zm15.08 8.5V9.47l-7.31 5.06a.75.75 0 0 1-.86 0L4.25 9.47v6.78h15.5Z"/></svg>
+        <span>anfragen@berlinweblocal.de</span>
+      </a>
+      <span class="footer-separator">//</span>
+      <div class="footer-socials" aria-label="Social Media">
+        <a href="https://www.instagram.com/localweb.berlin/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.75 2.75h8.5a5 5 0 0 1 5 5v8.5a5 5 0 0 1-5 5h-8.5a5 5 0 0 1-5-5v-8.5a5 5 0 0 1 5-5Zm0 1.8a3.2 3.2 0 0 0-3.2 3.2v8.5a3.2 3.2 0 0 0 3.2 3.2h8.5a3.2 3.2 0 0 0 3.2-3.2v-8.5a3.2 3.2 0 0 0-3.2-3.2h-8.5ZM12 7.6A4.4 4.4 0 1 1 12 16.4 4.4 4.4 0 0 1 12 7.6Zm0 1.8A2.6 2.6 0 1 0 12 14.6 2.6 2.6 0 0 0 12 9.4Zm4.78-2.82a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.1 8.9h3.2v10.35H5.1V8.9Zm1.6-5.15a1.86 1.86 0 1 1 0 3.72 1.86 1.86 0 0 1 0-3.72Zm4.12 5.15h3.07v1.42h.04c.43-.81 1.47-1.66 3.03-1.66 3.24 0 3.84 2.13 3.84 4.9v5.69h-3.2v-5.04c0-1.2-.02-2.75-1.68-2.75-1.68 0-1.94 1.31-1.94 2.67v5.12h-3.16V8.9Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="footer-column">
+        <h3>Webseiten</h3>
+        <a href="#pakete">Starter-Paket (49€)</a>
+        <a href="#pakete">Business-Paket (79€)</a>
+        <a href="#pakete">Premium-Paket (149€)</a>
+        <a href="#leistungen">Blitzschnelle Ladezeiten</a>
+        <a href="#leistungen">Maßgeschneiderter Code</a>
+      </div>
+      <div class="footer-column">
+        <h3>Berliner Branchen</h3>
+        <a href="#kontakt">Handwerk & Bau</a>
+        <a href="#kontakt">Friseure & Kosmetik</a>
+        <a href="#kontakt">Gastronomie & Cafés</a>
+        <a href="#kontakt">Lokale Dienstleister</a>
+        <a href="#kontakt">Immobilien & Makler</a>
+      </div>
+      <div class="footer-column">
+        <h3>Sichtbarkeit</h3>
+        <a href="#leistungen">SEO-Grundlagen</a>
+        <a href="#leistungen">Google Business Profil Optimierung</a>
+        <a href="#leistungen">Schnelle Ladezeiten</a>
+        <a href="#leistungen">Monatliche Pflege</a>
+      </div>
+      <div class="footer-column">
+        <h3>Mehr von uns</h3>
+        <a href="#top">Über uns</a>
+        <a href="#referenzen">Unsere Referenzen</a>
+        <a href="/blog/">Unser Blog</a>
+        <a href="#kontakt">Kontakt aufnehmen</a>
+      </div>
+      <aside class="footer-trust-card">
+        <p>Echte Qualität. Direkt aus Berlin.</p>
+        <div class="google-rating" aria-label="Google Rating 5.0 mit 5 Sternen">
+          <span class="google-word">
+            <svg class="google-logo" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path fill="#FBBC05" d="M5.84 14.1c-.22-.66-.35-1.36-.35-2.1s.13-1.44.35-2.1V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l3.66-2.84z"/>
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06L5.84 9.9C6.71 7.3 9.14 5.38 12 5.38z"/>
+            </svg>
+            <span>Google Rating</span>
+          </span>
+          <strong>5.0</strong>
+          <span class="google-stars">★★★★★</span>
+        </div>
+        <span>100% maßgeschneiderter Custom Code. Keine trägen Baukästen. Sicherer EU-Datenschutz.</span>
+      </aside>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© Copyright 2026 | Local Web Berlin ®</p>
+      <nav aria-label="Rechtliches">
+        <a href="/impressum">Impressum</a>
+        <a href="/datenschutz">Datenschutz</a>
+      </nav>
+    </div>
+  </footer>
+
+  <a class="whatsapp-sticky" href="https://wa.me/4917662581511?text=Hallo%20Berlin%20Web%20Local%2C%20ich%20habe%20Interesse%20an%20einer%20Website." target="_blank" rel="noopener" aria-label="WhatsApp Kontakt" data-track-event="WhatsApp Floating Button">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 4C9.42 4 4.04 9.38 4.04 16c0 2.12.56 4.12 1.54 5.85L4 28l6.32-1.5A11.9 11.9 0 0 0 16.04 28c6.62 0 12-5.38 12-12s-5.38-12-12-12Zm0 21.8c-1.85 0-3.58-.51-5.06-1.4l-.36-.21-3.75.89 1-3.65-.24-.38A9.72 9.72 0 0 1 6.24 16c0-5.4 4.4-9.8 9.8-9.8s9.8 4.4 9.8 9.8-4.4 9.8-9.8 9.8Zm5.37-7.34c-.29-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.67.15-.2.29-.77.96-.95 1.16-.17.2-.35.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.45.13-.6.13-.13.29-.35.44-.52.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.91-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.29-1.04 1.02-1.04 2.48 0 1.46 1.06 2.88 1.21 3.08.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.74-.71 1.99-1.39.25-.68.25-1.27.17-1.39-.07-.13-.27-.2-.56-.35Z"/></svg>
+  </a>
+
+  <div class="dsgvo-badge" aria-label="DSGVO konform">
+    <span class="lock-icon">▣</span>
+    <span>DSGVO<br>konform</span>
+  </div>
+
+  <div class="modal" id="contactModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Modal schließen">×</button>
+      <h2 id="modalTitle">Angebot anfragen</h2>
+      <p>Füllen Sie das Formular aus. Die Anfrage wird an LWB gesendet.</p>
+      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="c46fdcb6-7161-4c4e-93f5-fec44f3d9c97">
+        <input type="hidden" name="subject" value="Neue Anfrage über berlinweblocal.de">
+        <input type="hidden" name="from_name" value="berlinweblocal.de Website">
+        <label>
+          Name *
+          <input type="text" name="name" required placeholder="Ihr Name">
+        </label>
+        <label>
+          E-Mail *
+          <input type="email" name="email" required placeholder="name@example.de">
+        </label>
+        <label>
+          Telefon / WhatsApp
+          <input type="tel" name="phone" placeholder="+49 ...">
+        </label>
+        <label>
+          Betrieb
+          <input type="text" name="business" placeholder="z.B. Friseursalon, Restaurant">
+        </label>
+        <label>
+          Paket
+          <select name="package" id="packageSelect">
+            <option value="">Noch unsicher</option>
+            <option value="Starter">Starter</option>
+            <option value="Business">Business</option>
+            <option value="Premium">Premium</option>
+          </select>
+        </label>
+        <label>
+          Nachricht *
+          <textarea name="message" required rows="4" placeholder="Wobei können wir helfen?"></textarea>
+        </label>
+        <p class="privacy-note">Mit dem Absenden dieses Formulars stimmst du der Verarbeitung deiner Daten gemäß unserer <a href="/datenschutz">Datenschutzerklärung</a> zu.</p>
+        <button class="btn btn-primary" type="submit">Anfrage senden</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="cookie-consent" id="cookieConsent" role="dialog" aria-modal="true" aria-labelledby="cookieTitle" hidden>
+    <div class="cookie-card">
+      <div>
+        <p class="eyebrow">Datenschutz</p>
+        <h2 id="cookieTitle">Cookies & Analyse</h2>
+        <p>Wir nutzen essenzielle Cookies für diese Entscheidung. Analyse- und Marketing-Skripte bleiben blockiert, bis du aktiv zustimmst.</p>
+      </div>
+      <div class="cookie-actions">
+        <button class="btn btn-primary" type="button" data-cookie-accept="all">Alle akzeptieren</button>
+        <button class="btn btn-secondary" type="button" data-cookie-accept="essential">Nur essenzielle akzeptieren</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js?v=ui-final-1"></script>
+</body>
+</html>
+
+
+
+
