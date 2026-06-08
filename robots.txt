@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://berlinweblocal.de/sitemap.xml
