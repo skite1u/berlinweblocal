@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" role="img" aria-labelledby="title desc">
+  <title id="title">Local Web Berlin</title>
+  <desc id="desc">Invertierte sloganfreie Berlin Web Local Wortmarke für dunkle Hintergründe.</desc>
+  <defs>
+    <style>
+      .white{fill:#fff}
+      .blue{fill:#1e64ae}
+      .stroke{fill:none;stroke:#fff;stroke-width:11;stroke-linecap:round;stroke-linejoin:round}
+      .tower{fill:#fff}
+      .word{font-family:Barlow,Arial,sans-serif;font-weight:600;letter-spacing:13px}
+    </style>
+  </defs>
+  <g transform="translate(16 8)">
+    <path class="stroke" d="M75 126 C44 90 19 64 31 34 C41 11 70 3 96 13" />
+    <path class="stroke" d="M108 14 C141 23 151 60 127 91" />
+    <path class="tower" d="M82 12h10v19h8v8H74v-8h8V12Zm-5 29h20l9 15H68l9-15Zm-8 20h38v10H69V61Zm10 16h18l-2 10H81l-2-10Zm5 8h8v43h-8V85Z"/>
+    <path class="white" d="M83 126 130 72 165 116 205 38 219 68 166 141 129 96 98 134z"/>
+    <path class="blue" d="M186 116 217 52 228 77 198 137z"/>
+    <path class="white" d="M218 68 251 134 302 38 322 38 253 142z"/>
+  </g>
+  <g class="word" font-size="42" transform="translate(338 78)">
+    <text class="white" x="0" y="0">LOCAL</text>
+    <text class="blue" x="0" y="52">WEB</text>
+    <text class="white" x="132" y="52">BERLIN</text>
+  </g>
+</svg>
